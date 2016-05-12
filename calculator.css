@@ -1,0 +1,33 @@
+<style>
+  * {
+    box-sizing: border-box;
+  }
+  button {
+    width: 100px;
+    height: 80px;
+    font-size: 4em;
+    background-color: lightgray;
+    border: 2px solid;
+    border-radius: 5px;
+  }
+  button:hover{
+    font-size: 4em;
+    box-shadow: 2px 2px 2px white;
+    transform: rotate(360deg) scale(1.1);
+    transition: 0.75s;
+  }
+  #display {
+    height: 80px;
+    width: 308px;
+    font-size: 4em;
+    text-align: right;
+  }
+  table {
+    background-color: black;
+  }
+  table.center {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+  }
+</style>
